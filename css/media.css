@@ -1,0 +1,1138 @@
+/* レスポンシブ対応のcss */
+/* 幅1200px以下　メディアクエリ */
+@media  screen and (max-width: 1200px){
+
+  /* header 1200以下*/
+.header-wrapper {
+  width: 98%;
+  margin-left: 10px;
+}
+.header-contact {
+  margin-left: auto;
+  width: 182px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  height: 40px;
+  line-height: 40px;
+}
+header p {
+  width: 210px;
+  font-size: 12px;
+  margin-top: 25px;
+  letter-spacing: 0px;
+}
+.top h1 {
+  font-size: 24px;
+}
+.top h2 {
+  font-size: 16px;
+}
+/* 黄色の背景のところ 1200以下*/
+.express {
+  padding-top: 30px;
+}
+.express-top h2 {
+  font-size: 16px;
+}
+.express p {
+  font-size: 15px;
+}
+.contact-btn {
+  height: 20px;
+  width: 86%;
+  line-height: 20px;
+  padding: 30px 0px;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+.express-bottom h2 {
+  margin-bottom: 30px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+/* 本当の自由を手に入れるにはのところ */
+.method {
+  height: 520px;
+}
+.yellow-title h1 {
+  font-size: 24px;
+}
+.method-text {
+  font-size: 16px;
+}
+.method-text p:nth-child(2){
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+/* ノマドエンジニアの育成講座のところ 1200以下*/
+.glow-bold {
+  font-size: 16px;
+}
+.glow-skill {
+  width: 96%;
+}
+/* 基本的にプログラミングスキルは教えませんのところ1200以下 */
+.Bangkok h1{
+  font-size: 24px;
+}
+.Bangkok h2 {
+  font-size: 16px;
+}
+.Bangkok-step p:nth-child(2) {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+.Bangkok-step h4{
+  margin: 10px 0px;
+}
+.Bangkok-steps {
+  flex-direction: column;
+  width: 38%;
+}
+.Bangkok-step {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  height: 170px;
+}
+.Bangkok-step-number {
+  width: 88%;
+  border-radius: 5px;
+  font-size: 14px;
+}
+/* 背景が青いところ 1200px以下 */
+.color-blue h3 {
+  font-size: 16px;
+}
+/* イサラで学べることのところ 1200px*/
+.leaning h1 {
+  font-size: 24px;
+}
+.leaning-top {
+  font-size: 16px;
+}
+.leaning-bottom {
+  font-size: 14px;
+}
+/* イサラのメリット 1200px*/
+.text-small{
+  font-size: 16px;
+}
+.merit-contents {
+  width: 88%;
+  margin-left: 75px;
+}
+.merit-content {
+  width: 300px;
+  margin-right: 0px;
+}
+.merit-content p {
+  font-size: 14px;
+  padding: 0 20px;
+}
+.merit-content h3 {
+  font-size: 16px;
+  text-align: center;
+}
+.merit-content-image1 {
+  width: 300px;
+}
+.merit-content-image2 {
+  width: 300px;
+}
+.merit-content-image3 {
+  width: 300px;
+}
+.middle{
+  margin-left: auto;
+}
+.right{
+  margin-left: auto;
+}
+.merit-support {
+  width: 87%;
+  height: 240px;
+}
+.merit-support h1 {
+  font-size: 24px;
+}
+.merit-support h3 {
+  font-size: 16px;
+}
+.merit-support p {
+  font-size: 14px;
+}
+.merit-careful {
+  width: 800px;
+  letter-spacing: 0px;
+  font-size: 12px;
+}
+/* 創業メンバーのところ 1200px*/
+.members-top h1{
+  font-size: 24px;
+}
+.members-top p {
+  font-size: 14px;
+}
+.teachers {
+  width: 91%;
+  margin: 0 auto;
+}
+.teacher {
+  width: 30%;
+}
+.teacher p {
+  font-size: 14px;
+}
+.teacher img {
+  left: 18%;
+}
+/* 黄色の背景のところ 1200px */
+.possible p {
+  font-size: 20px;
+}
+.white-title h1 {
+  font-size: 18px;
+}
+/* 実現可能のところ 1200px*/
+.others-member {
+  width: 96%;
+}
+.others-hearing h1 {
+  font-size: 24px;
+}
+.others-hearing p:nth-child(2) {
+  font-size: 14px;
+}
+.others-hearing p:nth-child(3) {
+  font-size: 12px;
+}
+.others-member-image{
+  margin-right: 32px;
+  width: 33%;
+}
+.others-member img {
+  width: 100%;
+  height: 100%;
+}
+.others-member-image-second img{
+  width: 88%;
+  height: 100%;
+}
+/* イサラで学べる内容のところ 1200px */
+.achievement-top h1 {
+  font-size: 24px;
+}
+.achievement-top h3 {
+  font-size: 14px;
+}
+.achievement-main {
+  flex-direction: column;
+  width: 620px;
+}
+.achievement-before {
+  width: 620px;
+  height: 510px;
+  margin-bottom: 15px;
+}
+.achievement-main h2 {
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+}
+.achievement-main ul li {
+  height: 44px;
+  font-size: 14px;
+  line-height: 44px;
+}
+.achievement-after {
+  width: 618px;
+  height: 330px;
+}
+/* 受講の流れのところ 1200px*/
+.fa-tv{
+  font-size: 22px;
+}
+.plan {
+  padding-bottom: 20px;
+}
+.plan h1 {
+  font-size: 24px;
+}
+.plan-images img{
+  width: 92%;
+}
+.plan-content {
+  width: 78%;
+}
+.connect {
+  width: 62%;
+}
+.plan-content-right p{
+  font-size: 14px;
+}
+.plan-content-right h3{
+  font-size: 14px;
+}
+/* なぜバンコクなのかのところ 1200px*/
+.why {
+  padding-left: 60px;
+}
+.why p{
+  font-size: 12px;
+}
+.why ul {
+  font-size: 14px;
+}
+.why h2{
+  font-size: 16px;
+}
+/* isara受講生への参加得点のところ 1200px*/
+.Benefits-top h1 {
+  font-size: 24px;
+}
+.Benefits-top p {
+  font-size: 14px;
+}
+
+.Benefits-bottom h1 {
+  margin-left: 33%;
+  width: 400px;
+  font-size: 24px;
+}
+.Benefits-content {
+  margin-right: 0px;
+}
+.Benefits-contents {
+  width: 78%;
+  padding: 50px 70px 56px 70px;
+}
+.benefits-middle{
+  margin-left: auto;
+}
+.benefits-right{
+  margin-left: auto;
+}
+/* isaraはボランティアではありませんのところ 1200px*/
+.volunteer-top h1 {
+  font-size: 24px;
+}
+.volunteer-top h2 {
+  font-size: 16px;
+}
+.volunteer-bottom h2 {
+  font-size: 16px;
+}
+.volunteer-white h1{
+  font-size: 24px;
+}
+/* 創業者からのメッセージ 1200px*/
+.creator-top h1 {
+  font-size: 24px;
+}
+.creator-top h2 {
+  font-size: 16px;
+}
+.creator-bottom {
+  flex-direction: column;
+  width: 94%;
+}
+.creator-bottom-image {
+  width: 100%;
+  height: 100%;
+  margin-right: 0px;
+}
+.creator-bottom-texts {
+  width: auto;
+  margin-top: 35px;
+}
+/* 資料請求フォームのところ 1200px*/
+.contact h1 {
+  font-size: 24px;
+}
+.contact p {
+  font-size: 14px;
+}
+form {
+  width: 70%;
+}
+/* よくある質問 1200px*/
+.questions h1 {
+  font-size: 24px;
+}
+.questions-main {
+  width: 90%;
+}
+.questions-main dt h2 {
+  font-size: 16px;
+}
+.questions-main dd {
+  font-size: 14px;
+}
+
+}
+
+
+
+/* メディアクエリ 幅980px以下 黄色と白の鍵かっこのレスポンシブ*/
+
+@media  screen and (max-width: 980px){
+  /* isaraのメリットのところ */
+.yellow-title {
+  width: 96%;
+  padding-top: 20px;
+}
+.merit-contents {
+  flex-direction: column;
+  width: 84%;
+}
+.merit-content {
+  width: 100%;
+}
+.merit-content-image1 {
+  margin: 0 auto;
+}
+.merit-content-image2 {
+  margin: 0 auto;
+}
+.merit-content-image3 {
+  margin: 0 auto;
+}
+.merit-careful {
+  width: 86%;
+}
+/* 白いかっこのところ 980px*/
+.white-title {
+  width: 96%;
+}
+/* 創業メンバーのところ 980px*/
+.teachers {
+  width: 89%;
+  flex-direction: column;
+}
+.teacher {
+  width: 88%;
+  margin-top: 200px;
+  padding-right: 46px;
+}
+.members-top p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+.teacher img {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/* isara受講生への参加得点のところ 980px*/
+.Benefits-contents {
+  flex-direction: column;
+  margin-top: 90px;
+}
+.Benefits-bottom h1 {
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -40px;
+}
+.Benefits-content {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.Benefits-content:nth-child(3) {
+  margin: 0 auto;
+}
+/* 第三者の意見のところ 980px */
+.others-member-image{
+  width: 70%;
+}
+
+
+}
+
+
+/* メディアクエリ 幅930px以下  イサラで学べる内容の画像サイズレスポンシブ */
+@media screen and (max-width:930px){
+  .learning-skills {
+    width: 96%;
+}
+  .learning-skill {
+    width: 25%;
+    height: 25%;
+}
+
+
+}
+/* メディアクエリ 幅770px以下*/
+@media screen and (max-width:770px){
+ /* header */
+ header {
+  height: 60px;
+}
+.header-wrapper {
+  margin-left: 10px;
+  margin-top: 8px;
+  flex-direction: column-reverse;
+}
+header img {
+  height: 34px;
+  width: 90px;
+}
+header p {
+  font-size: 10px;
+  margin: 0px;
+}
+.header-contact {
+  display: none;
+}
+.header-document {
+  height: 39px;
+  padding: 12px;
+  padding-top: 9px;
+  display: flex;
+  flex-direction: column;
+  background-color: #DA6B64;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.header-document img{
+  width: 20px;
+  margin: 0 auto;
+  height: 30px;
+}
+.header-document a{
+  font-size: 12px;
+}
+.header-document a:hover{
+  text-decoration: underline;
+}
+/* mainのところ 770px*/
+.main {
+  padding-top: 60px;
+}
+.top {
+  height: 290px;
+  padding-top: 20px;
+}
+.top h1 {
+  font-size: 18px;
+}
+.top h1:nth-child(2) {
+  margin-top: 0px;
+}
+.top img {
+  margin-bottom: 32px;
+  margin-top: 10px;
+}
+.top h2 {
+  font-size: 15px;
+  line-height: 16px;
+}
+/* 黄色の背景のところ 770px*/
+.express {
+  padding-top: 20px;
+}
+.express-top h2 {
+  font-size: 15px;
+}
+.express p {
+  font-size: 14px;
+}
+.contact-btn {
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+.express-bottom h2 {
+  font-size: 15px;
+}
+.contact-btn {
+  height: 27px;
+  line-height: 27px;
+  padding-top: 18px;
+  padding-bottom: 48px;
+  width: 96%;
+  letter-spacing: 0px;
+}
+/* 改行のcss span 770px*/
+.text-br{
+  display: block;
+  margin-top: 4px;
+}
+.text-h2{
+  display: block;
+}
+.express-bottom h2 {
+  margin-bottom: 24px;
+}
+.header-sns {
+  padding-bottom: 30px;
+}
+/* 本当の自由を手に入れるにはのところ 770px*/
+.method {
+  height: 614px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  background-position: center bottom;
+}
+.yellow-title {
+  margin-bottom: 30px;
+}
+.yellow-title h1 {
+  font-size: 18px;
+}
+/* 黄色のかっこの改行 css 770px*/
+.yellow-br{
+  display: block;
+  margin-top: 10px;
+}
+.method-text {
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+.yellow-title::before {
+  width: 26px;
+  height: 26px;
+}
+.yellow-title::after {
+  width: 26px;
+  height: 26px;
+}
+.br{
+  display: block;
+}
+.about {
+  width: 60px;
+  height: 60px;
+  font-size: 12px;
+  line-height: 60px;
+  margin-top: 74px;
+}
+/* ノマドエンジニア養成講座のところ 770px*/
+.glow {
+  height: 480px;
+  padding: 60px 0;
+}
+.glow-bold {
+  font-size: 15px;
+  margin-top: 2px;
+}
+.glow-merits p {
+  font-size: 10px;
+}
+.glow-merit img{
+  width: 32px;
+  height: 32px;
+}
+.glow-pc {
+  position: relative;
+  top: 12px;
+  width: 120px;
+}
+.glow-with {
+  width: 94px;
+}
+.glow-report {
+  width: 94px;
+}
+.glow-star {
+  width: 110px;
+}
+.glow-conect {
+  width: 114px;
+}
+.glow-conect img{
+  width: 74px;
+}
+/* 基本的にプログラミングスキルは教えませんのところ 770px*/
+.Bangkok {
+  padding-bottom: 20px;
+  background-image: url(../images/aboutsecondbgsp.jpg);
+  background-position: center;
+}
+.Bangkok h1 {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.Bangkok h2 {
+  font-size: 12px;
+}
+.Bangkok-steps {
+  width: 90%;
+}
+.Bangkok-step {
+  height: 104px;
+}
+.Bangkok-step-number {
+  width: 86%;
+  font-size: 12px;
+  margin: 14px auto;
+}
+.Bangkok-step p:nth-child(2) {
+  font-size: 12px;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+.Bangkok-step h4 {
+  margin: 4px 0px;
+  font-size: 12px;
+}
+/* 背景が青いところ 770px*/
+.color-blue {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.color-blue h3 {
+  font-size: 12px;
+}
+/* イサラで学べることのところ 770px*/
+.leaning h1 {
+  font-size: 18px;
+  margin-top: 50px;
+}
+.leaning-top {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.learning-skills {
+  width: 86%;
+}
+.learning-skill {
+  margin-left: 12px;
+}
+.leaning-bottom {
+  font-size: 12px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+/* イサラのメリット 770px*/
+.merit {
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.text-small {
+  font-size: 15px;
+  display: block;
+  height: 30px;
+}
+.merit-contents {
+  width: 96%;
+  margin: 0 auto;
+}
+.merit-content {
+  width: 100%;
+}
+.merit-content-image1 {
+  width: 100%;
+  height: 120px;
+}
+.merit-content-image2 {
+  width: 100%;
+  height: 120px;
+}
+.merit-content-image3 {
+  width: 100%;
+  height: 120px;
+}
+.merit-content h3 {
+  font-size: 15px;
+}
+.merit-content p {
+  font-size: 12px;
+}
+.merit-support {
+  width: 94%;
+  height: 180px;
+}
+.merit-support h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.merit-support h3 {
+  font-size: 15px;
+}
+.merit-support p {
+  font-size: 10px;
+  letter-spacing: 0px;
+  padding: 0 8px;
+}
+.support-br{
+  display: none;
+}
+/* 創業メンバーのところ 770px*/
+.members {
+  padding-top: 60px;
+  background-image: url(../images/teacherbgsp.jpg);
+}
+.members-top h1 {
+  font-size: 18px;
+}
+.members-top p {
+  font-size: 12px;
+}
+.teachers {
+  width: 95%;
+}
+.teacher {
+  margin-top: 130px;
+  width: 99%;
+  margin-right: 0px;
+  padding: 0;
+  padding-top: 42px;
+  padding-bottom: 10px;
+  border: 3px solid #FFFFFF;
+}
+.teacher img {
+  width: 126px;
+  top: -80px;
+}
+.teacher p {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* 黄色の背景のところ 770px*/
+.possible {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.possible p {
+  font-size: 14px;
+  height: 62px;
+  width: 62px;
+  line-height: 62px;
+  margin-bottom: 10px;
+}
+.white-title h1 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.white-title::before {
+  width: 26px;
+  height: 26px;
+}
+.white-title::after {
+  width: 26px;
+  height: 26px;
+}
+/* 第三者の意見のところ 770px*/
+.others-hearing h1 {
+  font-size: 18px;
+}
+.others-hearing p:nth-child(2) {
+  font-size: 12px;
+}
+.others-member-coment p:first-child {
+  margin: 0px;
+  font-size: 15px;
+}
+.others-member-coment p:nth-child(2) {
+  line-height: 19px;
+  text-decoration: underline;
+  border-bottom: 0px;
+  font-size: 14px;
+}
+.others-member:first-child {
+  margin-top: 20px;
+}
+.others-member-image {
+  width: 70%;
+  height: 100%;
+}
+.others-member img {
+  margin-right: 16px;
+}
+/* イサラで学べる内容のところ 770px*/
+.achievement {
+  padding-top: 50px;
+  background-image: url(../images/classbgsp.jpg);
+}
+.achievement-top h1 {
+  font-size: 18px;
+}
+.achievement-top h3 {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.achievement-main {
+  width: 96%;
+}
+.achievement-before {
+  width: 99%;
+  height: 470px;
+}
+.achievement-after {
+    width: 99%;
+    height: 306px;
+}
+.achievement-main ul li {
+  height: 40px;
+  font-size: 12px;
+  line-height: 40px;
+}
+/* 受講の流れのところ 770px*/
+.plan {
+  padding-bottom: 60px;
+  margin-top: 40px;
+}
+.plan h1 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.fa-tv {
+  font-size: 18px;
+}
+.plan-images {
+  display: none;
+}
+.plan-content {
+  cursor: pointer;
+  margin-bottom: 4px;
+  flex-direction: column;
+  padding: 0px 8px 6px 16px;
+  width: 92%;
+  border-radius: 5px;
+  position: relative;
+}
+.plan-content-left {
+  margin-right: 24px;
+  margin-top: 12px;
+  width: initial;
+  display: flex;
+}
+.plan-content-left::after{
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-bottom: solid 4px #000000;
+  border-right: solid 4px #000000;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}
+
+.plan-content-left img{
+  width: 36px;
+  height: 35px;
+}
+.plan-content-left img:hover + h2{
+  text-decoration: underline;
+}
+.plan-content-left h2 {
+  font-size: 15px;
+  margin-top: 6px;
+  margin-left: 14px;
+}
+.plan-content-left h2:hover{
+  text-decoration: underline;
+}
+.plan-content-right {
+  text-align: start;
+  width: initial;
+  margin-top: 4px;
+  padding-bottom: 10px;
+  display: none;
+}
+.plan-content-right h3 {
+  font-size: 12px;
+}
+.plan-content-right p {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  margin-top: 10px;
+}
+.plan-content-right h3:first-child {
+  margin-bottom: 8px;
+}
+.plan-skype h3:nth-child(2) {
+  margin: 0px;
+}
+.pc-br{
+  display: none;
+}
+.connect {
+  display: none;
+}
+/* toggleclass css */
+ .toggle-icon::after{
+  transform: rotate(-135deg);
+}
+.first-border{
+  text-decoration: underline;
+}
+/* なぜバンコクなのかのところ 770px*/
+.why {
+  padding: 50px 34px 20px 34px;
+  background-image: url(../images/bangkokbgsp.jpg);
+}
+.why h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.why ul li {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.why h2 {
+  font-size: 15px;
+}
+/* isara受講者への参加特典のところ 770px*/
+.Benefits {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Benefits-contents {
+  margin-top: 80px;
+  width: 76%;
+}
+.Benefits-top h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.Benefits-top p {
+  font-size: 12px;
+}
+.Benefits-bottom h1 {
+  top: -30px;
+  font-size: 18px;
+  width: 260px;
+}
+.Benefits-contents {
+  display: none;
+}
+.Benefits-contents-next{
+  display: block;
+  padding:45px 0;
+  padding-right: 40px;
+  border: 2px solid white;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.Benefits-content-next{
+  display: flex;
+  margin-left: 10%;
+}
+.Benefits-content-next p{
+  font-size: 12px;
+  font-weight: bold;
+}
+.Benefits-content-circle p{
+  width: 59px;
+  height: 59px;
+  line-height: 59px;
+  background-color: white;
+  border-radius: 50%;
+  color: #F7C23C;
+}
+.Benefits-content-side{
+  margin-left: 30px;
+  margin-top: 22px;
+  text-align: start;
+  color: white;
+}
+/* isaraはボランティアではありませんのところ 770px*/
+.volunteer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(../images/specialdetailsp.jpg);
+}
+.volunteer-top h1 {
+  font-size: 18px;
+}
+.volunteer-top h2 {
+  font-size: 12px;
+}
+.volunteer-bottom h2 {
+  font-size: 12px;
+}
+/* 創業者からのメッセージのところ 770px*/
+.creator-top h1 {
+  font-size: 18px;
+  margin-top: 50px;
+}
+.creator-top h2 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.creator-bottom {
+  margin-bottom: 50px;
+}
+.creator-bottom-texts {
+  margin-top: 5px;
+}
+/* 資料請求フォームのところ 770px*/
+.contact {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.contact h1 {
+  font-size: 18px;
+}
+.contact p {
+  font-size: 12px;
+  margin-top: 30px;
+}
+form {
+  width: 96%;
+}
+input[type="text"] {
+  width: 94%;
+}
+input[type="email"] {
+  width: 93%;
+}
+textarea {
+  width: 93%;
+}
+/* よくある質問 770px*/
+.questions h1 {
+  font-size: 18px;
+  margin-top: 50px;
+}
+.questions-main {
+  width: 94%;
+}
+.questions-main dt {
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.questions-main dd {
+  font-size: 12px;
+}
+.questions-main dt h2 {
+  font-size: 15px;
+  margin: 0;
+}
+.questions-main dt::after {
+  width: 6px;
+  height: 6px;
+  top: 48%;
+  right: 18px;
+}
+/* footer 770px*/
+footer {
+  padding-top: 20px;
+  padding-bottom: 8px;
+  margin-top: 40px;
+}
+.box {
+  padding: 14px 16px;
+  bottom: 20px;
+  right: 20px;
+}
+.fa-chevron-up{
+  font-size: 14px;
+}
+
+}
